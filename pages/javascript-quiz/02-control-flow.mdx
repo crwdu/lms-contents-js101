@@ -16,19 +16,14 @@ import { nightOwl } from "@codesandbox/sandpack-themes";
 [반복문](../messenger-project-1/05-rendering#2-반복문.mdx)과 [조건문](../messenger-project-1/06-conditional-rendering#2-조건문.mdx)를 다시 한번 살펴보고 아래 퀴즈들을 풀어보세요.
 
 <Callout emoji="📌">
-정확히 어떤 값이 콘솔에 출력되는지 3분 이상 잘 고민해보고, 아래 콘솔 출력문의 주석을 해제하여 정답을 확인해보세요.
+코드를 실행하기 전에 반드시 5분 이상 조사하고 고민하여 실행 결과를 예측해볼 수 있도록 하세요!
 </Callout>
 
 <br/>
 ### 1. 퀴즈
 
-<br/>
-<Sandpack
-  template="vanilla"
-  theme={nightOwl}
-  files={{
-    "/app.js": {
-      code: `let result = 0;
+```javascript copy showLineNumbers
+let result = 0;
 
 for (let i = 0; i < 5; i++) {
   if (i % 2 === 0) {
@@ -36,35 +31,14 @@ for (let i = 0; i < 5; i++) {
   }
 }
 
-// console.log(result);`,
-      active: true
-    },
-  }}
-  options={{
-    showLineNumbers: true,
-    editorHeight: "500px",
-    editorWidthPercentage: 60,
-    initMode: "lazy",
-    autoReload: false,
-    showConsole: true,
-  }}
-customSetup={{
-    entry: "app.js",
-  }}
-/>
+console.log(result);
+```
 
 <br/>
 ### 2. 퀴즈
 
-> 주어진 코드 구문을 자세히 읽고 판단해보세요.
-
-<br/>
-<Sandpack
-  template="vanilla"
-  theme={nightOwl}
-  files={{
-    "/app.js": {
-      code: `let result = 0;
+```javascript copy showLineNumbers
+let result = 0;
 
 for (let i = 0; i < 10; i += 2) {
   if (i % 4 === 0) {
@@ -72,33 +46,14 @@ for (let i = 0; i < 10; i += 2) {
   }
 }
 
-// console.log(result);`,
-      active: true
-    },
-  }}
-  options={{
-    showLineNumbers: true,
-    editorHeight: "500px",
-    editorWidthPercentage: 60,
-    initMode: "lazy",
-    autoReload: false,
-    showConsole: true,
-  }}
-customSetup={{
-    entry: "app.js",
-  }}
-/>
+console.log(result);
+```
 
 <br/>
 ### 3. 퀴즈
 
-<br/>
-<Sandpack
-  template="vanilla"
-  theme={nightOwl}
-  files={{
-    "/app.js": {
-      code: `let result = 0;
+```javascript copy showLineNumbers
+let result = 0;
 
 for (let i = 0; i < 10; i++) {
   if (i % 3 === 0 || i % 4 === 0) {
@@ -106,22 +61,8 @@ for (let i = 0; i < 10; i++) {
   }
 }
 
-// console.log(result);`,
-      active: true
-    },
-  }}
-  options={{
-    showLineNumbers: true,
-    editorHeight: "500px",
-    editorWidthPercentage: 60,
-    initMode: "lazy",
-    autoReload: false,
-    showConsole: true,
-  }}
-customSetup={{
-    entry: "app.js",
-  }}
-/>
+console.log(result);
+```
 
 <br/>
 <br/>

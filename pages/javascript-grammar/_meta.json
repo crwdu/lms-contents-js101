@@ -9,15 +9,12 @@
     "title": "불리언 자료형"
   },
   "string": {
-    "title": "문자열의 다양한 기능"
+    "title": "문자열 자료형"
   },
   "null-and-undefined": {
     "title": "null과 undefined 자료형"
   },
-  "logical-operators": {
-    "title": "논리 연산자"
-  },
-  "comparison-operators": {
-    "title": "비교 연산자"
+  "object": {
+    "title": "객체 자료형"
   }
 }

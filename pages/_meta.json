@@ -54,7 +54,16 @@
     }
   },
   "javascript-grammar": {
-    "title": "5. JavaScript 문법",
+    "title": "5. JavaScript 자료형",
+    "theme": {
+      "typesetting": "article",
+      "sidebar": true,
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "operators": {
+    "title": "6. JavaScript 연산자",
     "theme": {
       "typesetting": "article",
       "sidebar": true,
@@ -63,7 +72,16 @@
     }
   },
   "javascript-quiz": {
-    "title": "6. JavaScript 퀴즈",
+    "title": "7. JavaScript 퀴즈",
+    "theme": {
+      "typesetting": "article",
+      "sidebar": true,
+      "toc": true,
+      "breadcrumb": false
+    }
+  },
+  "advanced": {
+    "title": "8. JavaScript 고급 개념",
     "theme": {
       "typesetting": "article",
       "sidebar": true,
