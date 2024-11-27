@@ -10,15 +10,12 @@ const Stepper = ({ steps, height = "400px" }) => {
   const prev = () => {
     setCurrent(current - 1);
   };
-  const items = steps.map((item) => ({
-    key: item.title,
-    title: item.title,
-  }));
   const contentStyle = {
+    display: "flex",
     height: height,
-    minHeight: "400px",
+    minHeight: "500px",
     lineHeight: "260px",
-    textAlign: "center",
+    textAlign: "left",
     color: token.colorTextTertiary,
     padding: "20px",
     backgroundColor: token.colorFillAlter,

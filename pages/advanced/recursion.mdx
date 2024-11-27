@@ -173,13 +173,13 @@ while (result < 6) {
 
 <br />
 
-<Stepper height={"500px"} steps={[
+<Stepper height={"auto"} steps={[
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example41 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             우리 프로그램이 시작하여 글로벌 실행 컨텍스트가 생성됩니다.
           </p>
         </Col>
@@ -218,10 +218,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example42 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             `countDown(3)` 함수 호출문이 실행됩니다.
           </p>
         </Col>
@@ -260,10 +260,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
-          <Example43 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <Example43 style={{ textAlign: 'left' }} />
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             `countDown(3)` 함수 호출문이 실행되었기에, 콜 스택에는 해당 실행 컨텍스트가 쌓이게 되고 2번째 줄의 조건문을 판별하게 됩니다.<br/><br/>n은 0이 아니므로, 조건문을 만족하지 않습니다.
           </p>
         </Col>
@@ -329,10 +329,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example44 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             <b>n = 3인 실행 컨텍스트가 아직 종료되지 않은 상황</b>에서 n = 2가 되어 countDown이 또 다시 새롭게 실행됩니다. 여전히 n = 3 실행 컨텍스트가 실행 중인 상황임을 명심하세요.<br/><br/>
             n = 2 함수 실행문(실행 컨텍스트)이 종료되어야 현재 n = 3인 실행 컨텍스트도 종료될 수 있습니다.
           </p>
@@ -402,10 +402,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example45 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             `countDown(2)` 함수 호출문이 실행되었기에, 콜 스택에는 해당 실행 컨텍스트가 쌓이게 되고 2번째 줄의 조건문을 판별하게 됩니다.<br/><br/>n은 0이 아니므로, 조건문을 만족하지 않습니다.
           </p>
         </Col>
@@ -501,10 +501,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example46 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             <b>n = 2인 실행 컨텍스트가 아직 종료되지 않은 상황</b>에서 n = 1이 되어 countDown이 또 다시 새롭게 실행됩니다. 여전히 n = 2 실행 컨텍스트가 실행 중인 상황임을 명심하세요.<br/><br/>
             n = 1 함수 실행문(실행 컨텍스트)이 종료되어야 현재 n = 2인 실행 컨텍스트도 종료될 수 있습니다.
           </p>
@@ -601,10 +601,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example47 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             `countDown(1)` 함수 호출문이 실행되었기에, 콜 스택에는 해당 실행 컨텍스트가 쌓이게 되고 2번째 줄의 조건문을 판별하게 됩니다.<br/><br/>n은 0이 아니므로, 조건문을 만족하지 않습니다.
           </p>
         </Col>
@@ -727,10 +727,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example48 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             <b>n = 1인 실행 컨텍스트가 아직 종료되지 않은 상황</b>에서 n = 0이 되어 countDown이 또 다시 새롭게 실행됩니다. 여전히 n = 1 실행 컨텍스트가 실행 중인 상황임을 명심하세요.<br/><br/>
             n = 0 함수 실행문(실행 컨텍스트)이 종료되어야 현재 n = 1인 실행 컨텍스트도 종료될 수 있습니다.
           </p>
@@ -854,10 +854,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example49 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             `countDown(0)` 함수 호출문이 실행되었기에, 콜 스택에는 해당 실행 컨텍스트가 쌓이게 되고 2번째 줄의 조건문을 판별하게 됩니다.<br/><br/>n은 0과 일치하므로, <b>조건문 내부로 진입합니다.</b>
           </p>
         </Col>
@@ -1007,10 +1007,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example410 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             n = 0인 실행 컨텍스트는 `return`문을 만나게 되어 실행이 종료되고 실행 컨텍스트는 콜 스택에서 제거됩니다.<br /><br />
           </p>
         </Col>
@@ -1160,12 +1160,12 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example411 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             n = 0인 실행 컨텍스트가 종료되었으므로, 우리는 n = 0인 실행 컨텍스트가 시작되었던 시점으로 돌아옵니다.<br /><br />
-            
+
             n = 0인 실행 컨텍스트가 시작되었던 시점은 n = 1인 함수 호출문의 6번째 줄이었습니다. 이 곳에서 추가적으로 실행할 로직이 없으므로 n = 1 실행 컨텍스트 또한 실행이 종료되고 콜 스택에서 제거됩니다.
           </p>
         </Col>
@@ -1288,10 +1288,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example412 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             n = 1인 실행 컨텍스트가 종료되었으므로, 우리는 n = 1인 실행 컨텍스트가 시작되었던 시점으로 돌아옵니다.<br /><br />
 
             n = 1인 실행 컨텍스트가 시작되었던 시점은 n = 2인 함수 호출문의 6번째 줄이었습니다. 이 곳에서 추가적으로 실행할 로직이 없으므로 n = 2 실행 컨텍스트 또한 실행이 종료되고 콜 스택에서 제거됩니다.
@@ -1389,10 +1389,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example413 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             n = 2인 실행 컨텍스트가 종료되었으므로, 우리는 n = 2인 실행 컨텍스트가 시작되었던 시점으로 돌아옵니다.<br /><br />
 
             n = 2인 실행 컨텍스트가 시작되었던 시점은 n = 3인 함수 호출문의 6번째 줄이었습니다. 이 곳에서 추가적으로 실행할 로직이 없으므로 n = 3 실행 컨텍스트 또한 실행이 종료되고 콜 스택에서 제거됩니다.
@@ -1463,10 +1463,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example414 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             countDown(3) 함수 실행 구문이 모두 종료됩니다.
           </p>
         </Col>
@@ -1508,10 +1508,10 @@ while (result < 6) {
 
   {
     content: (
-      <Row style={{ height: '100%' }}>
+      <Row style={{ width: '100%', alignItems: 'stretch' }}>
         <Col span={12}>
           <Example415 />
-          <p style={{ height: '100%', color: '#000000', padding: '0 20px', textAlign: 'left' }}>
+          <p style={{ color: '#000000', padding: '0 20px', textAlign: 'left' }}>
             우리 프로그램이 모두 종료됩니다.
           </p>
         </Col>
